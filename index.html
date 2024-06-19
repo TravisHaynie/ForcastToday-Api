@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- meta data -->
 
 <head>
     <meta charset="UTF-8">
@@ -7,19 +8,27 @@
     <title>Weather Board</title>
     <link rel="stylesheet" href="./assets/css/script.css">
 </head>
+<!-- Body Element -->
 
 <body>
+    <!-- Header Element -->
     <header>
         <h1>Weather Board</h1>
     </header>
+    <!-- Maine Element -->
     <main>
+        <!-- Main Form Element with search bar -->
         <form class="search">
-             <label class="label">Search for a City</label> 
-            <input type="text">
-            <button class="button" id="search-button" >Search</button>
+            <label class="label">Search Weather By City Name</label>
+            <input type="text" id="city-input" placeholder="Search for City">
+            <button class="button" id="search-button">Search</button>
         </form>
+        <!-- Elements that hold the form data  -->
+        <div id="weatherData"></div>
+        <div id="city-inputs"></div>
     </main>
-
+    <!-- linked file to Js -->
+    <script src="./assets/js/second.js"></script>
 </body>
 
 </html>
