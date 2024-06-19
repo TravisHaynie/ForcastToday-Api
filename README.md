@@ -4,7 +4,7 @@
 This is a Weather Dashboard that allows you too search for a specific city's current weather, and get a 5 day forcast back. It will give you the tempture, humidity, wind speeds, and date. It is using the Api from openWeather.
 
 ## Deployed Url
-
+ https://travishaynie.github.io/ForcastToday-Api/
 
 ## screenshot
 ![Screenshot 2024-06-19 153116](https://github.com/TravisHaynie/ForcastToday-Api/assets/161087057/38a3b2c9-e0c0-43d1-8226-d6ad1a8e4b58)
